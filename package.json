@@ -1,0 +1,46 @@
+{
+  "name": "@pr4j3sh/ai",
+  "description": "ai in your code",
+  "version": "1.0.0",
+  "main": "dist/bundle.cjs",
+  "module": "dist/bundle.mjs",
+  "exports": {
+    "require": "./dist/index.cjs",
+    "import": "./dist/index.mjs"
+  },
+  "bin": {
+    "javascript": "./dist/bundle.cjs"
+  },
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0",
+    "build": "node esbuild.config.js",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "ai",
+    "llm",
+    "gpt",
+    "npm",
+    "javascript",
+    "commonjs",
+    "frames"
+  ],
+  "author": "Prajesh Pratap Singh <prajesh.eleven118@gmail.com> (https://pr4j3sh.vercel.app/)",
+  "license": "MIT",
+  "homepage": "https://github.com/pr4j3sh/javascript#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pr4j3sh/javascript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pr4j3sh/javascript/issues"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0",
+    "nodemon": "^3.1.7"
+  }
+}
