@@ -1,27 +1,22 @@
-# Javascript NPM Package/Library
+# ai
 
-This is a javascript npm package commonjs module starter template. It produces both `cjs` and `esm` module builds.
+This is a javascript npm package for using llm inside your code. It produces both `cjs` and `esm` module builds.
 
-It provides both package scenarios:
+## Installation
 
-- library
-- binary
+- Using `npm`
+
+```bash
+npm i @pr4j3sh/ai
+```
 
 ## Usage
 
-- Clone using `@pr4j3sh/frames`
+```js
+const { ai } = require("@pr4j3sh/ai");
 
-```bash
-npm create @pr4j3sh/frames@latest javascript mypkg
+console.log(ai("write a poem on javascript"));
 ```
-
-- Run using
-
-```bash
-npm run dev
-```
-
-> By default `javascript` package is of type `cjs`. However, the final builds supports both, `cjs` and `esm`.
 
 ## Reference
 
