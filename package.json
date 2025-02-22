@@ -8,9 +8,6 @@
     "require": "./dist/index.cjs",
     "import": "./dist/index.mjs"
   },
-  "bin": {
-    "javascript": "./dist/bundle.cjs"
-  },
   "scripts": {
     "test": "echo \"No test specified\" && exit 0",
     "build": "node esbuild.config.js",

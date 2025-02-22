@@ -1,6 +1,6 @@
 # ai
 
-This is a javascript npm package for using llm inside your code. It produces both `cjs` and `esm` module builds.
+This is a javascript npm package for using llm inside your code.
 
 ## Installation
 
@@ -15,7 +15,13 @@ npm i @pr4j3sh/ai
 ```js
 const { ai } = require("@pr4j3sh/ai");
 
-console.log(ai("write a poem on javascript"));
+ai("write a poem on javascript")
+  .then((res) => {
+    console.log(res);
+  })
+  .catch((err) => {
+    console.error(err);
+  });
 ```
 
 ## Reference
