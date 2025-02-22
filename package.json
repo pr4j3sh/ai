@@ -28,13 +28,13 @@
   ],
   "author": "Prajesh Pratap Singh <prajesh.eleven118@gmail.com> (https://pr4j3sh.vercel.app/)",
   "license": "MIT",
-  "homepage": "https://github.com/pr4j3sh/javascript#readme",
+  "homepage": "https://github.com/pr4j3sh/ai#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pr4j3sh/javascript.git"
+    "url": "git+https://github.com/pr4j3sh/ai.git"
   },
   "bugs": {
-    "url": "https://github.com/pr4j3sh/javascript/issues"
+    "url": "https://github.com/pr4j3sh/ai/issues"
   },
   "devDependencies": {
     "esbuild": "^0.24.0",

@@ -1,6 +1,8 @@
 # ai
 
-This is a javascript npm package for using llm inside your code.
+> ai in your code
+
+This is a javascript npm package for using LLM inside your code.
 
 ## Installation
 
