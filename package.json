@@ -1,7 +1,7 @@
 {
   "name": "@pr4j3sh/ai",
   "description": "ai in your code",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/bundle.cjs",
   "module": "dist/bundle.mjs",
   "exports": {
@@ -26,7 +26,7 @@
     "commonjs",
     "frames"
   ],
-  "author": "Prajesh Pratap Singh <prajesh.eleven118@gmail.com> (https://pr4j3sh.vercel.app/)",
+  "author": "Prajesh Pratap Singh <prajesh.eleven118@gmail.com> (https://pr4j3sh.github.io/pr4j3sh/)",
   "license": "MIT",
   "homepage": "https://github.com/pr4j3sh/ai#readme",
   "repository": {
