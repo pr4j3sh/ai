@@ -1,5 +1,3 @@
 const { ai } = require("./src/utils");
 
-module.exports = {
-  ai,
-};
+module.exports = ai;

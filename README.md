@@ -14,8 +14,10 @@ npm i @pr4j3sh/ai
 
 ## Usage
 
+- Server side
+
 ```js
-const { ai } = require("@pr4j3sh/ai");
+const ai = require("@pr4j3sh/ai");
 
 ai("write a poem on javascript")
   .then((res) => {
@@ -24,6 +26,15 @@ ai("write a poem on javascript")
   .catch((err) => {
     console.error(err);
   });
+```
+
+- Client side
+
+```js
+import ai from "@pr4j3sh/ai";
+
+const res = await ai("write a poem on javascript");
+console.log(res);
 ```
 
 ## Reference
