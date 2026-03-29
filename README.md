@@ -65,6 +65,8 @@ async function main() {
 main();
 ```
 
+[Read More](docs/usage.md)
+
 ## Reference
 
 - [NodeJS Documentation](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs)

@@ -25,7 +25,7 @@ class AI {
     }
   }
 
-  async ollama(prompt = this.prompt) {
+  async ollama(prompt = this.prompt, model = "llama3.2") {
     try {
       const res = await fetch("http://localhost:11434/api/generate", {
         method: "POST",
@@ -33,7 +33,7 @@ class AI {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          model: "llama3.2",
+          model: model,
           stream: false,
           prompt: prompt,
         }),
