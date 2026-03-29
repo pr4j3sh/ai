@@ -4,6 +4,13 @@
 
 This is a javascript npm package for using LLM inside your code.
 
+Supports:
+
+- SheCodes
+- Ollama
+
+> Use chaining to make context aware
+
 ## Installation
 
 - Using `npm`
@@ -17,24 +24,45 @@ npm i @pr4j3sh/ai
 - Server side
 
 ```js
-const ai = require("@pr4j3sh/ai");
+const AI = require("@pr4j3sh/ai");
 
-ai("write a poem on javascript")
-  .then((res) => {
-    console.log(res);
-  })
-  .catch((err) => {
-    console.error(err);
-  });
+async function main() {
+  try {
+    const ai = new AI("write two lines on javascript");
+    await ai.shecodes();
+    await ai.ollama(
+      `${ai.response}\n use the above and give me two mcqs on it`,
+    );
+
+    console.log(ai.response);
+  } catch (error) {
+    console.error(error.message);
+  }
+}
+
+main();
 ```
 
 - Client side
 
 ```js
-import ai from "@pr4j3sh/ai";
+import AI from "@pr4j3sh/ai";
 
-const res = await ai("write a poem on javascript");
-console.log(res);
+async function main() {
+  try {
+    const ai = new AI("write two lines on javascript");
+    await ai.shecodes();
+    await ai.ollama(
+      `${ai.response}\n use the above and give me two mcqs on it`,
+    );
+
+    console.log(ai.response);
+  } catch (error) {
+    console.error(error.message);
+  }
+}
+
+main();
 ```
 
 ## Reference

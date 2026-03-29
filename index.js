@@ -1,3 +1,3 @@
-const { ai } = require("./src/utils");
+const AI = require("./src/ai");
 
-module.exports = ai;
+module.exports = AI;
